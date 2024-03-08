@@ -1,0 +1,73 @@
+.growgenius-text{
+    font-Family: Times New Roman, -apple-system, Roboto, Helvetica, sans-serif;
+    font-size: 50px;
+    border-Radius: 30px;
+    background-Color: rgba(255, 218, 23, 1);
+    min-Height: 600px;
+    font-Weight: 800;
+    text-align: center;
+    padding: 43px 23px 20px;
+}
+.calculate-loans{
+    font-Family: Times New Roman, -apple-system, Roboto, Helvetica, sans-serif;
+    border-Radius: 30px;
+    background-Color: rgba(255, 218, 23, 1);
+    margin-Top: 25px;
+    justify-Content: center;
+    align-Items: start;
+    padding: 50px 45px;
+}
+.reserve-meeting{
+    font-Family: Times New Roman, -apple-system, Roboto, Helvetica, sans-serif;
+    border-Radius: 30px;
+    background-Color: #ffda17;
+    margin-Top: 25px;
+    justify-Content: center;
+    padding: 50px 45px;
+}
+.announcement{
+    font-Family: Times New Roman, -apple-system, Roboto, Helvetica, sans-serif;
+    border-Radius: 30px;
+    background-Color: #ffda17;
+    margin-Top: 25px;
+    justify-Content: center;
+    align-Items: start;
+    white-Space: nowrap;
+    padding: 50px 45px; 
+}
+.align-textbox{
+    display: flex;
+    flex-Direction: column;
+    box-Shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    border-Color: rgba(0, 0, 0, 1);
+    border-Style:solid;
+    border-Width: 1px;
+    position: relative;
+    min-Height: 930px;
+    width: 100%;
+    justify-Content: center;
+    font-Size:52px;
+   
+}
+.align-description{
+  position: relative;
+  display: flex;
+  justify-Content: space-between;
+  gap: 20px;
+  margin: 70px 23px 62px 40px;
+}
+.title-page{
+    border-Color: rgba(0, 0, 0, 1);
+    border-Style: solid;
+    border-Width: 9px;
+    background-Color: #ff0;
+    padding: 40px 120px 40px 1700px;
+    font-Family: Times New Roman, -apple-system, Roboto, Helvetica, sans-serif;
+    font-Size: 100px;
+    font-weight: 600;
+}
+.container{
+  width: 600px;
+  height: 600px;
+}
