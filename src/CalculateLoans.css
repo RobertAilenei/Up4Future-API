@@ -1,0 +1,86 @@
+
+  .main-content {
+    margin: 40px;
+    color: #000;
+    
+    display: flex;
+    flex-Direction: column;
+    overflow: hidden;
+    border-Color: rgba(0, 0, 0, 1);
+    border-Style:solid;
+    border-Width: 0px;
+    position: relative;
+  }
+
+  .intro {
+    margin-bottom: 20px;
+    text-wrap: wrap;
+    text-align: center;
+    font: 700 34px/54px Arial, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+
+  .info-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+  }
+
+  .info-block {
+    background-color: #f0f0f0;
+    padding: 16px;
+    border-radius: 16px;
+    flex-basis: calc(50% - 10px);
+  }
+  .info-container {
+    display: flex;
+    
+    
+  }
+  
+  .first-set-values,
+  .second-set-values {
+    flex: 1;
+    
+
+  }
+  .title-page{
+    border-Color: rgba(0, 0, 0, 1);
+    border-Style: solid;
+    border-Width: 9px;
+    background-Color: #ff0;
+    padding: 40px 120px 40px 1700px;
+    font-Family: Times New Roman, -apple-system, Roboto, Helvetica, sans-serif;
+    font-Size: 100px;
+    font-weight: 600;
+    position:relative;
+    width: 100%;
+    box-sizing: border-box; 
+}
+.calculate-button {
+    background-color: yellow;
+    color: black;
+    font-size: 30px;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto 30%;
+    position: relative;
+    top: 100px
+  }
+  .home-button {
+    background-color: yellow;
+    color: black;  
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100px; 
+    height: 50px; 
+    position: fixed;
+    bottom: 20px; 
+    right: 20px; 
+    display: block;
+  }
+  
