@@ -4,21 +4,20 @@ import './MainPage.css'
 
 function MainPage() {
   return (   
-      <div className="div">
-        <div className="div-2">
+      <div className="body">
+        <div className="content">
           <img className="img"  src={BACKGROUNDIMG}    alt="centered"/>
-          <div className="div-3">
-            <div className="div-4">Login</div>
-            <div className="div-5">Register</div>
+          <div className="align-buttons">
+            <div className="login-button">Login</div>
+            <div className="register-button">Register</div>
           </div>
-          <div className="div-6">
-            <div className="div-7">GrowGenius</div>
-            <div className="div-8">About us</div>
+          <div className="growgenius">GrowGenius</div>
+          <div className="align-text">
+            <div className="growgenius">GrowGenius</div>
+            <div className="about-us">About us</div>
           </div>
-        </div>
-      </div>
-      
-    
+        </div> 
+      </div> 
   );
 }
 

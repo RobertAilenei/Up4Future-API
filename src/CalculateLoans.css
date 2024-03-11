@@ -2,7 +2,6 @@
   .main-content {
     margin: 40px;
     color: #000;
-    
     display: flex;
     flex-Direction: column;
     overflow: hidden;
@@ -10,6 +9,8 @@
     border-Style:solid;
     border-Width: 0px;
     position: relative;
+ 
+    background-size: cover;
   }
 
   .intro {

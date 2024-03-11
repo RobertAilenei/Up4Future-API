@@ -1,0 +1,48 @@
+
+  .content {
+    position: relative;
+    padding-top: 2vw; /* Use viewport units for padding */
+    padding-bottom: 50px;
+  }
+  
+  .stepsContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 0 20px;
+    position: relative; /* Ensure the steps container respects the position of the content */
+    
+  }
+  .stepsContainer2 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    position: relative; /* Ensure the steps container respects the position of the content */
+    padding-left: 337px;
+    padding-right: 337px;
+  }
+  
+  .step {
+    border-radius: 40px;
+    background-color: #d9d9d9;
+    padding: 60px;
+    font:34px Times New Roman, -apple-system, Roboto, Helvetica, sans-serif;
+    margin-bottom: 20px; 
+  }
+  
+  .stepNumber {
+    font-weight: bold;
+  }
+  
+  .stepTitle {
+    display: flex;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .stepDescription {
+    margin-top: 5px;
+  }
+  
+
+ 

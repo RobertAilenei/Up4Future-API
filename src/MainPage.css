@@ -1,12 +1,8 @@
 
-       .div {
-          background-color: #fff;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          color: #000;
+        .body,html{
+          overflow: hidden;
         }
-        .div-2 {
+        .content {
           display: flex;
           flex-direction: column;
           overflow: hidden;
@@ -14,18 +10,6 @@
           display: flex;
           min-height: 1080px;
           width: 100%;
-          padding: 49px 80px;
-        }
-        @media (max-width: 991px) {
-          .div-2 {
-            max-width: 100%;
-            padding: 0 20px;
-          }
-        }
-        @media (max-width: 640px) {
-          .div-2 {
-            display: none;
-          }
         }
         .img {
           position: absolute;
@@ -33,27 +17,24 @@
           height: 100%;
           width: 100%;
           object-fit: cover;
+          
           object-position: center;
         }
-        .div-3 {
+        .align-buttons {
           position: relative;
           align-self: end;
           display: flex;
           width: 462px;
           max-width: 100%;
           justify-content: space-between;
-          gap: 20px;
+          gap: 10px;
           font-size: 30px;
           font-weight: 400;
           white-space: nowrap;
+          
         }
-        @media (max-width: 991px) {
-          .div-3 {
-            flex-wrap: wrap;
-            white-space: initial;
-          }
-        }
-        .div-4 {
+        
+        .login-button {
           font-family: Times New Roman, -apple-system, Roboto, Helvetica,
             sans-serif;
           border-radius: 30px;
@@ -62,14 +43,10 @@
           justify-content: center;
           align-items: start;
           padding: 11px 32px;
+          
         }
-        @media (max-width: 991px) {
-          .div-4 {
-            white-space: initial;
-            padding: 0 20px;
-          }
-        }
-        .div-5 {
+        
+        .register-button {
           font-family: Times New Roman, -apple-system, Roboto, Helvetica,
             sans-serif;
           border-radius: 30px;
@@ -77,53 +54,31 @@
           flex-grow: 1;
           align-items: start;
           padding: 14px 36px 8px;
+          margin-left: 50px;
         }
-        @media (max-width: 991px) {
-          .div-5 {
-            white-space: initial;
-            padding: 0 20px;
-          }
-        }
-        .div-6 {
+        
+        .align-text {
           position: relative;
           display: flex;
           flex-direction: column;
-          margin: 282px 0 6px 21px;
+          margin: 50px 0 6px 21px; /* Adjust the top margin here */
         }
-        @media (max-width: 991px) {
-          .div-6 {
-            max-width: 100%;
-            margin-top: 40px;
-          }
-        }
-        .div-7 {
+        
+        .growgenius {
+          
           text-align: center;
           text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-          font: 700 240px Times New Roman, -apple-system, Roboto, Helvetica,
-            sans-serif;
+          font: 700 240px Times New Roman, -apple-system, Roboto, Helvetica, sans-serif;
+       
         }
-        @media (max-width: 991px) {
-          .div-7 {
-            max-width: 100%;
-            font-size: 40px;
-          }
-        }
-        .div-8 {
-          border-radius: 30px;
+        
+        .about-us {
+          border-radius: 40px;
           background-color: #ffda17;
-          align-self: end;
-          width: 313px;
+          width: 203px;
           max-width: 100%;
-          align-items: start;
-          margin: 241px 56px 0 0;
           padding: 12px 60px 32px 25px;
-          font: 400 52px Times New Roman, -apple-system, Roboto, Helvetica,
-            sans-serif;
-        }
-        @media (max-width: 991px) {
-          .div-8 {
-            font-size: 40px;
-            margin: 40px 10px 0 0;
-            padding: 0 20px;
-          }
+          font: 400 52px Times New Roman, -apple-system, Roboto, Helvetica, sans-serif;
+          margin-top: 290px; /* Adjust the top margin here */
+          margin-left: 2000px;
         }
